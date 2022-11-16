@@ -61,11 +61,10 @@ Problem 5 (Compare Images):
              (= (image-height IMAGE1) 
                 (image-height IMAGE2)))
 
-
 Problem 6 (More Foo Evaluation):
     Given the following function definition:
         (define (foo n)
-        (* n n))
+            (* n n))
     Write out the step-by-step evaluation of the expression: 
         (foo (+ 3 4))
     Be sure to show every intermediate evaluation step.
@@ -75,3 +74,10 @@ Problem 6 (More Foo Evaluation):
         (foo 7)
         (* 7 7)
         49
+
+Problem 15 (Function Writing):
+    Write a function that consumes two numbers and produces the larger of the two.
+
+    Solution 15:
+        (define (lerger x y)
+            (if (> x y) x y))
