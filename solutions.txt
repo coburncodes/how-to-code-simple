@@ -1,0 +1,18 @@
+Problem 1:
+    Assume that the two short sides of a right triangle have length 3 and 4.
+    What is the length of the long side? Recall that the Pythagorean Theorem
+    tells us that: (find the hypotenuse of a 3/4/? right triangle)
+    Write a BSL expression that produces the the value of ? for this triangle 
+    where the other two sides have lengths 3 and 4.
+
+    Solution 1:
+        (sqrt (+ (sqr 3) (sqr 4)))
+
+Problem 2:
+    Write two expressions that multiply the numbers 3, 5 and 7. 
+    The first should take advantage of the fact that * can accept more than 2 arguments. 
+    The second should build up the result by first multiplying 3 times 5 and then 
+    multiply the result of that by 7. 
+
+    Solution 2:
+        
