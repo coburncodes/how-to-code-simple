@@ -1,3 +1,7 @@
+--------------------------------------
+Section 1a: Beginning Student Language
+--------------------------------------
+
 Problem 0:
     Assume that the two short sides of a right triangle have length 3 and 4.
     What is the length of the long side? Recall that the Pythagorean Theorem
@@ -110,5 +114,28 @@ Problem 16 (Foo Evaluation):
             "abc")
 
         (string-append "abc" "a")
-        
+
         "abca"
+
+-----------------------------------
+Section 1b: How to Design Functions
+-----------------------------------
+
+Problem 0 (A First HtDF Problem):
+    Design a function that pluralizes a given word. 
+    (Pluralize means to convert the word to its plural form.) 
+    For simplicity you may assume that just adding s is enough to pluralize a word.
+
+    Solution 0:
+        ;;String -> String                                       ;;signature
+        ;;Pluralize a string                                     ;;purpose
+        (check-expect (pluralize "car") "cars")
+        (check-expect (pluralize "elephant") "elephants")
+        
+        ;;(define (pluralize c) "hands")                         ;;stub
+        ;;(define (pluralize c) ... c)                           ;;template
+
+        (define (pluralize c) 
+            string-append c "s")                           
+
+
